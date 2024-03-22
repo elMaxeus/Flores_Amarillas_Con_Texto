@@ -42,7 +42,7 @@ function createFlower() {
 
         const flower = document.createElement("div");
         flower.classList.add("flower");
-        flower.style.animation = "fadeInFlower 1s ease-in-out both"; // Agregar animación de entrada a la flor
+        flower.style.animation = "fadeInFlower 2s ease-in-out both"; // Agregar animación de entrada a la flor
 
         for (let i = 1; i <= 10; i++) {
             const petal = document.createElement("div");
